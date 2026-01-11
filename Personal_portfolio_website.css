@@ -1,0 +1,133 @@
+.nav-links{    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    border-radius: 12px;
+    color: #334155;
+}
+
+.nav-link{    
+    margin-right: 25px;
+    transition: transform 0.6s ease;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    transform: scale(1.25);
+}
+
+.nav-container{
+    width: 100%;
+    text-align: center;
+    padding: 25px 25px 5px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#0f172a;
+    color: bisque;
+    cursor: pointer;
+}
+#full_container{
+    background-color: #0f172a;
+    color: #e5e7eb;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
+.hero_container{
+    columns: 100%;
+    display: flex;
+    flex-direction:row ;
+}
+.hero_section_1{
+    margin-top:15%;
+    margin-left: 40px;
+}
+.hero_section_image{
+    padding:20px;
+    border-radius: 50px;
+    height:500px;
+     
+}
+.hero_section_button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: black;
+    color: aquamarine;
+    font-family: "Roboto";
+    margin: 8px;
+    transition: transform 0.6s ease;
+}
+.hero_section_button:hover{
+    transform:scale(1.25) ;
+}
+#grow-image {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#grow-image:hover {
+    transform: scale(1.03);
+    
+}
+.about_me_section{
+    display: flex;
+    flex-direction: row;
+}
+.about_me_section_heading{
+    text-align: center;
+}
+.about_me_section_paragraph{
+    margin: 25px;
+    font-weight: 200;
+    font-size: 18px;
+}
+.services_full_section{
+    display: flex;
+    flex-direction: row;
+}
+.services_section_1{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 14px;
+    border-color: black;
+    padding: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: transform 0.4s ease;
+    
+}
+.services_section_1:hover{
+    transform: scale(1.08);
+}
+
+.participation_certificates_section_carosal{
+    margin: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.completion__certificates_section_carosal{
+    margin: 70px;
+    
+}
+.E_section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}.education_section{
+    margin: auto;
+}
+.experience_section{
+    margin: auto;   
+}
+.footer_full_section{
+    padding: auto;
+    padding-bottom: 20px;
+}
+
+
+
